@@ -9,10 +9,10 @@ var specialcharacters = ['!', '@', '#', '$', '%', '^', '&', '*', '-', '+'];
 function generatePassword() {
   var passwordlength = parseInt(prompt("Choose a Password Length, It needs to be between 8-128 characters")); // Turns String into a Number
 
-  if (isFinite(passwordlength) && passwordlength < 129 && passwordlength > 7) // All must be true
+  if (passwordlength < 129 && passwordlength > 7) // All must be true
   {
-    alert('Yay'); } else { 
-      alert("Length needs to be between 8-128 characters");
+    alert('Good Choice! Off to a great start!'); } else { 
+      alert("ERROR🤡🚨: Length needs to be between 8-128 characters");
       return "Try again";
     }
   
