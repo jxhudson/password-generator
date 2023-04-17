@@ -37,11 +37,17 @@ function generatePassword() {
     generatedpassword = generatedpassword.concat(specialcharacters);
   }
 
+  var password = "";
+  for(var i = 0; i < passwordlength; i++) {
+    var Generator = Math.floor(Math.random() * generatedpassword.length);
+    password = password + generatedpassword[Generator];
+  }
+return password;
 }
-// Create function generatePassword()
-// Function needs to set criteria
-// ~ Password is greater than 8 characters and less than 128 characters
-// ~ Choose between lowercase, uppercase, numeric, and/or special characters
+// *DONE* Create function generatePassword() *DONE*
+// *DONE*Function needs to set criteria *DONE*
+// *DONE* ~ Password is greater than 8 characters and less than 128 characters *DONE*
+// *DONE* ~ Choose between lowercase, uppercase, numeric, and/or special characters *DONE*
 // ~ Validates and at least one character type selected
 // ~ Generates password that matches criteria
 
