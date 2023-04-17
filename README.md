@@ -24,3 +24,6 @@ https://www.w3schools.com/jsref/jsref_continue.asp
 ## License
 
 Please refer to LICENSE in repo.
+<img width="2024" alt="Screen Shot 2023-04-17 at 5 13 52 PM" src="https://user-images.githubusercontent.com/125466051/232622116-d2e42ff4-6389-4c30-a493-4fd35f7445ee.png">
+
+https://jxhudson.github.io/password-generator/
